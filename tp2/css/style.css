@@ -23,6 +23,17 @@ h1{
     margin-right: auto
 }
 
+table{
+    border-collapse: collapse;
+}
+
+td{
+  border: 1px solid black;  
+}
+
+#main{
+    background-color: lightgray
+}
 
 @media screen and (-webkit-max-device-pixel-ratio: 2){
 
