@@ -38,7 +38,19 @@ td{
     background-color: lightgray;
 }
 
-@media screen and (-webkit-max-device-pixel-ratio: 2), screen and (max-device-width: 480px){
+@media only screen and (max-device-width: 480px){
 
+    td{
+        display : block;  
+    }
+    table{
+        width: 100%   
+    }
+        
+    
+    
+        
+            
+    
 
 }
