@@ -1,3 +1,6 @@
+*{
+    overflow-y: hidden;
+}
 #para1{
 	background-color:#6a89cc
 }
@@ -31,11 +34,11 @@ td{
   border: 1px solid black;  
 }
 
-#main{
-    background-color: lightgray
+.main{
+    background-color: lightgray;
 }
 
-@media screen and (-webkit-max-device-pixel-ratio: 2){
+@media screen and (-webkit-max-device-pixel-ratio: 2), screen and (max-device-width: 480px){
 
 
 }
