@@ -1,3 +1,6 @@
+html{
+    font-size: 100%;
+}
 
 #para1{
 	background-color:#6a89cc
@@ -10,7 +13,10 @@
 }
 
 p{
-	font-size : 1.6rem;
+	color:gold;
+    background-image: url(../img/bg.jpg);
+    
+
 }
 
 h1{
