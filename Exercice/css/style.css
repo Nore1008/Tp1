@@ -222,12 +222,17 @@ footer p{
     
     header{
         height : 120%;
+        padding-bottom: -
     }
     
     header .menuphone{
         visibility: visible;
         display: inline;
         margin-left: 5%;
+    }
+    
+    .background #banner{
+        margin-top: 
     }
 }
 
