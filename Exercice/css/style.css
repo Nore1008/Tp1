@@ -1,0 +1,180 @@
+header{
+    background-color: #ae5a41 ; 
+    height: 125px;
+    width: 100%;
+    ;
+
+}
+
+
+body{
+   font-family: "Lucida Sans";
+    margin: 0;
+    background-color: #5a5255;
+    
+    
+}
+
+
+
+header .nav{
+    position: static;
+    margin-right: 10px;
+    margin-top: 50px;
+    display:flex;
+    float: right;
+    color: white;
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #1b85b8;
+}
+
+.menu{
+    margin-right: 5px;
+}
+
+#logo{
+    display: inline;
+}
+
+#logo img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width : 25%;
+}
+
+.background{
+    background-image: url(../img/background.png);
+    background-size: 100% 100%;    
+}
+
+.background #banner img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    display: block;
+    
+}
+
+
+.background p{
+    width: 90%;
+    margin: auto;
+    color: cornsilk;
+    padding-bottom: 20px;
+    font-size:18px;
+}
+h1{
+    width: 95%;
+    margin-left: auto;
+    color: lightgrey
+    
+}
+
+.galerie{
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+
+.galerie ul{
+    display:inline;
+    
+}
+
+.galerie ul li{
+    display: inline-block;
+    margin-right: 5%;
+    
+    
+}
+
+.galerie ul li img{
+     
+}
+
+.galerie ul li h2{
+    font-size: 20px;
+    text-align: center;
+    color: #f2f2f2;
+}
+.bas{
+    display: inline-block;
+}
+
+.map{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 48%;
+    float: left;
+}
+
+.map h2{
+    color: lightgrey;
+}
+.formulaire{
+    width: 40%; 
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    color: lightgrey;
+        
+}
+.formulaire form{
+    display:block;
+}
+
+.formulaire form #nom, .formulaire form #prenom, .formulaire form #birthcity{
+    width: 47%;
+    margin-bottom: 8px;
+}
+
+.formulaire form #birthday{
+    width : 46.8%;
+    margin-bottom: 8px;
+}
+
+.formulaire form #mail, .formulaire form #photo, .formulaire form #message{
+    width: 95.5%;
+    margin-bottom: 8px;
+}
+
+.formulaire form #envoyer{
+    float: right;
+    margin-right: 3.2%
+}
+
+
+footer{
+    width: 100%;
+    background-color: #ae5a41;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
+
+footer p{
+    float: right;
+    margin-right: 2%;
+}
+
+@media only screen and (max-device-width: 700px){
+
+    body{
+        margin-right: -36%;
+    }
+    
+    
+}
+
