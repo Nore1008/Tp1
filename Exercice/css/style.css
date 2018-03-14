@@ -171,7 +171,9 @@ footer p{
 
 @media only screen and (max-device-width: 700px){
 
-    
+    body{
+        margin-right: -36%;
+    }
     
     
 }
