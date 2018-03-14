@@ -15,7 +15,10 @@ body{
     
 }
 
-
+header .menuphone{
+    visibility: hidden;
+    display: none;
+}
 
 header .nav{
     position: static;
@@ -171,18 +174,60 @@ footer p{
 
 @media only screen and (max-device-width: 700px){
 
-    body{
-        margin-right: ;
+    body, html{
+        padding: 0px;
+        margin-right: auto
+        overflow-x: auto;
     }
     
     .map {
-        width : 100%;
-        margin-right:
+        width : 95%;
+        margin-left: 5%
     }
     .map iframe{
-        width : 90%
+        width : 95%;
+    }
+    
+    .formulaire{
+        width: 90%;
+        float: none;
+        margin-left: 5%;
+    }
+    
+    .formulaire form #nom, .formulaire form #prenom, .formulaire form #birthcity, .formulaire form #mail, .formulaire form #photo, .formulaire form #message{
+        width: 100%;
+    }
+    
+    .formulaire form #birthday{
+        width : 99.5%
+    }
+    
+    .formulaire form #envoyer{
+        margin-right: -2%;
+        margin-bottom: 5%
+    }
+    
+    .nav {
+        visibility: hidden
     }
     
     
+    #logo img{
+        width: 200px;
+        margin-right: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display:inline
+    }
+    
+    header{
+        height : 120%;
+    }
+    
+    header .menuphone{
+        visibility: visible;
+        display: inline;
+        margin-left: 5%;
+    }
 }
 
