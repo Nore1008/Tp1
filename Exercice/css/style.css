@@ -172,11 +172,15 @@ footer p{
 @media only screen and (max-device-width: 700px){
 
     body{
-        margin-right: -36%;
+        margin-right: ;
     }
     
     .map {
-       visibility: hidden;
+        width : 100%;
+        margin-right:
+    }
+    .map iframe{
+        width : 90%
     }
     
     
